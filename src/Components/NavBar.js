@@ -7,6 +7,8 @@ export default function NavBar(){
 const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
 
   return (
+    <div className="row">
+    <div className="col-md-12">
     <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
       <Nav.Item>
         <Nav.Link eventKey="1" href="#/home">
@@ -31,6 +33,8 @@ const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
         <NavDropdown.Item eventKey="4.4">Separated link</NavDropdown.Item>
       </NavDropdown>
     </Nav>
+    </div>
+    </div>
   );
 
 }
