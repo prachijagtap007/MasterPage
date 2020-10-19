@@ -9,7 +9,7 @@ const handleSelect = (eventKey) => alert(`selected ${eventKey}`);
   return (
     <div className="row">
     <div className="col-md-12">
-    <Nav variant="pills" activeKey="1" onSelect={handleSelect}>
+    <Nav bg="dark" variant="dark" expand="lg" sticky="top" activeKey="1" onSelect={handleSelect}>
       <Nav.Item>
         <Nav.Link eventKey="1" href="#/home">
           NavLink 1 content
