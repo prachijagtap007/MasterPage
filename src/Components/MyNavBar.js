@@ -10,7 +10,7 @@ import {
   import AboutUs from './AboutUs';
   import ContactUs from './ContactUs';
 
-class Navbar extends React.Component{
+class MyNavbar extends React.Component{
 
     render(){
         return(
@@ -60,4 +60,4 @@ class Navbar extends React.Component{
     }
 }
 
-export default Navbar;
+export default MyNavbar;
